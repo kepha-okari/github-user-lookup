@@ -9,7 +9,7 @@ import { UserInfo } from './user-info';
 })
 export class AppComponent {
   title = 'GitHub User Lookup App';
-    userName='';
+    userName='brianmarete';
     avatar_url='';
     details:UserInfo;
 

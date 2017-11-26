@@ -6,7 +6,7 @@
   <div class="search-bar" style="text-align:center">
       <input  [(ngModel)]="userName" placeholder=" Enter name of GitHub user" class="input-md-5">
       <button id="search" class="btn btn-primary search" (click)="searchUser()">Search</button>
-      {{details.name}}
+      
   </div>
   <hr>
 
@@ -20,12 +20,13 @@
 
     <div class="col-md-6" id="user-details" *ngIf="details">
 
-       <h5>Name: {{details.name}} </h5>
-       <h5>GitHub Handle{{details.login}}</h5>
-       <h5>Company: {{details.company}}</h5>
-       <h5>Url: {{details.url}}</h5>
-       <h5>Bio:{{details.bio}}</h5>
+       <h5><strong> Name:</strong>    {{details.name}} </h5>
+       <h5><strong> GitHub:</strong>  {{details.login}}</h5>
+       <h5><strong> Company:</strong> {{details.company}}</h5>
+       <h5><strong> Url:</strong>   <span id="rangi">{{details.url}}</span></h5>
+       <h5><strong> Bio:</strong>    {{details.bio}}</h5>
 
     </div>
   </div>
 </div>
+<footer></footer>
