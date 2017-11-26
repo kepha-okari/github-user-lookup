@@ -8,7 +8,7 @@ import { UserInfo } from './user-info';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'GitHub user lookup App';
+  title = 'GitHub User Lookup App';
     userName='';
     avatar_url='';
     details:UserInfo;

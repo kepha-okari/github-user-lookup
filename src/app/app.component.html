@@ -1,6 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="app-name "  style="text-align:center">
-  <h1>  {{title}}  </h1>
+  <h3>  {{title}}  </h3>
 </div>
 
   <div class="search-bar" style="text-align:center">
@@ -8,25 +8,24 @@
       <button id="search" class="btn btn-primary search" (click)="searchUser()">Search</button>
       {{details.name}}
   </div>
+  <hr>
 
 <div class="row" style="text-align:center; background-color:#211f1f;">
-  <div class="col-md-10 col-md-offset-1" >
+  <div class="col-md-10 col-md-offset-1" style="background-color:#211f1f">
+    <!-- #211f1f -->
+    <!-- #00ffe1 -->
     <div class="col-md-6" id="imageColumn" *ngIf="details">
       <img [src]="details.avatar_url "class="img-responsive img-circle">
     </div>
 
     <div class="col-md-6" id="user-details" *ngIf="details">
 
-
-
-
-
-
-       <h5>Name: {{details.name}}</h5>
+       <h5>Name: {{details.name}} </h5>
        <h5>GitHub Handle{{details.login}}</h5>
        <h5>Company: {{details.company}}</h5>
        <h5>Url: {{details.url}}</h5>
-      <h5>Bio:{{details.bio}}</h5>
+       <h5>Bio:{{details.bio}}</h5>
+
     </div>
   </div>
 </div>
