@@ -1,0 +1,13 @@
+input {
+  background-color: orange;
+  border-radius:30px;
+  border: 1px;
+
+  height: 35  px;
+  padding: 7px;
+}
+#search {
+  border-radius: 10px;
+  height: 30;
+  padding: 7px;
+}
