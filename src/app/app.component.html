@@ -1,27 +1,32 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class=""style="text-align:center">
+<div class="app-name "  style="text-align:center">
   <h1>  {{title}}  </h1>
+</div>
 
-  <div class="search-bar">
-      <input  [(ngModel)]="userName" placeholder=" Enter name of GitHub user">
+  <div class="search-bar" style="text-align:center">
+      <input  [(ngModel)]="userName" placeholder=" Enter name of GitHub user" class="input-md-5">
       <button id="search" class="btn btn-primary search" (click)="searchUser()">Search</button>
+      {{details.name}}
   </div>
 
+<div class="row" style="text-align:center; background-color:#211f1f;">
+  <div class="col-md-10 col-md-offset-1" >
+    <div class="col-md-6" id="imageColumn" *ngIf="details">
+      <img [src]="details.avatar_url "class="img-responsive img-circle">
+    </div>
 
-<hr>
+    <div class="col-md-6" id="user-details" *ngIf="details">
 
-<hr>
-<div class="row">
-<div class="col-md-6" id="imageColumn" *ngIf="details">
-  <img [src]="details.avatar_url">
-</div>
 
-<div class="col-md-6" id="otherDetailsColumn" *ngIf="details">
-   <h5>{{details.name}}</h5>
-   <h5>{{details.login}}</h5>
-   <h5>{{details.company}}</h5>
-   <h5>{{details.url}}</h5>
-    <h5>{{details.bio}}</h5>
 
-</div>
+
+
+
+       <h5>Name: {{details.name}}</h5>
+       <h5>GitHub Handle{{details.login}}</h5>
+       <h5>Company: {{details.company}}</h5>
+       <h5>Url: {{details.url}}</h5>
+      <h5>Bio:{{details.bio}}</h5>
+    </div>
+  </div>
 </div>

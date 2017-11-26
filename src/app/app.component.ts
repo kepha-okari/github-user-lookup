@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Http,Response } from  '@angular/http';
-import { Details } from './details';
-
+import { UserInfo } from './user-info';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +11,7 @@ export class AppComponent {
   title = 'GitHub user lookup App';
     userName='';
     avatar_url='';
-    details:Details;
+    details:UserInfo;
 
     constructor(private http:Http){}
 

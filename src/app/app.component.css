@@ -1,13 +1,20 @@
 input {
-  background-color: orange;
-  border-radius:30px;
+  background-color:white;
+  border-radius:0px;
   border: 1px;
-
-  height: 35  px;
+  width: 20%;
+  height: 34px;
   padding: 7px;
+  margin-right: 10px;
 }
 #search {
-  border-radius: 10px;
-  height: 30;
+  border-radius: 0px;
+  height: 35px;
+  width: 8%;
   padding: 7px;
+}
+.search-bar {
+  background-color: #211f1f;
+  height: 60px;
+  padding-top: 15px;
 }
