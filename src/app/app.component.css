@@ -12,6 +12,7 @@ input {
   height: 35px;
   width: 8%;
   padding: 7px;
+  text-align: center;
 }
 .search-bar {
   background-color: #211f1f;

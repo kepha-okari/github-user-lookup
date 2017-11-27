@@ -3,5 +3,8 @@ export class UserInfo {
   login:string;
   company:string;
   avatar_url:string;
+  followers:number;
+  following:number;
   bio:string;
+
 }

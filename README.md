@@ -1,22 +1,26 @@
 # GithubUserLookup
+ By KEPHA OKARI
+ An angular application that enables user to search GitHub users and view their information
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
+## Description
+The app enables the useer to search any GitHub user and view his or her information that can be typically accessed in GitHub. It uses GitHub API to fetch this information.
 
-## Development server
+## Set Up and installation requirements
+clone repository.
+Install Angular cli.
+Run nmp install.
+Install globals e.g. Typescript packages and typescript.
+npm install typescript -g
+apm install atom-typescript
+run ng serve --open.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##Technologies Used
 
-## Code scaffolding
+HTML, Botstrap, CSS, JavaScript, TypeScript, Node.js, Angular 5.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##License
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+MIT License.
 
 ## Running end-to-end tests
 

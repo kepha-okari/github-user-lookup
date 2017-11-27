@@ -6,7 +6,7 @@
   <div class="search-bar" style="text-align:center">
       <input  [(ngModel)]="userName" placeholder=" Enter name of GitHub user" class="input-md-5">
       <button id="search" class="btn btn-primary search" (click)="searchUser()">Search</button>
-      
+
   </div>
   <hr>
 
@@ -24,6 +24,8 @@
        <h5><strong> GitHub:</strong>  {{details.login}}</h5>
        <h5><strong> Company:</strong> {{details.company}}</h5>
        <h5><strong> Url:</strong>   <span id="rangi">{{details.url}}</span></h5>
+       <h5><strong> Followers:</strong> {{details.followers}}</h5>
+       <h5><strong> Following:</strong> {{details.following}}</h5>
        <h5><strong> Bio:</strong>    {{details.bio}}</h5>
 
     </div>
