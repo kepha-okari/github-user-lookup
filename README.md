@@ -1,5 +1,6 @@
 # GithubUserLookup
- By KEPHA OKARI
+ By KEPHA OKARI.
+ 
  An angular application that enables user to search GitHub users and view their information
 
 ## Description
